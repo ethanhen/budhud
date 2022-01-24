@@ -259,7 +259,7 @@
 
     "CSecondaryTargetID"
     {
-        "ypos"                                                      "c40"
+        "ypos"                                                      "c80"
         "tall"                                                      "80"
         "priority"                                                  "35"
     }
