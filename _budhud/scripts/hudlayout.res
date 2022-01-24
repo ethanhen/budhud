@@ -221,7 +221,7 @@
     "CHudAccountPanel"
     {
         "xpos"                                                      "c-100"
-        "ypos"                                                      "c35"
+        "ypos"                                                      "c30"
         "wide"                                                      "200"
         "tall"                                                      "50"
         "textAlignment"                                             "center"
