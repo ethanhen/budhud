@@ -221,7 +221,7 @@
     "CHudAccountPanel"
     {
         "xpos"                                                      "c-100"
-        "ypos"                                                      "c110"
+        "ypos"                                                      "c35"
         "wide"                                                      "200"
         "tall"                                                      "50"
         "textAlignment"                                             "center"
@@ -251,7 +251,7 @@
 
     "CMainTargetID"
     {
-        "ypos"                                                      "c40"
+        "ypos"                                                      "c45"
         "tall"                                                      "80"
         "zpos"                                                      "1"
         "priority"                                                  "40"
@@ -259,7 +259,7 @@
 
     "CSecondaryTargetID"
     {
-        "ypos"                                                      "c80"
+        "ypos"                                                      "c85"
         "tall"                                                      "80"
         "priority"                                                  "35"
     }
