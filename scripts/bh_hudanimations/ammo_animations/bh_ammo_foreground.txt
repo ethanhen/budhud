@@ -21,17 +21,17 @@
         Animate             AmmoInReserveShadow                 fgcolor                     bh_Ammo_Reserve_Shadow      Linear 0.0 0.2
 
         // Flash ammo main
-        Animate             AmmoInClip                          alpha                       255                         Linear 0.0 0.2
-        Animate             AmmoInClip                          alpha                       0                           Linear 0.2 0.4
-        Animate             AmmoNoClip                          alpha                       255                         Linear 0.0 0.2
-        Animate             AmmoNoClip                          alpha                       0                           Linear 0.2 0.4
+        //Animate             AmmoInClip                          alpha                       255                         Linear 0.0 0.2
+        //Animate             AmmoInClip                          alpha                       0                           Linear 0.2 0.4
+        //Animate             AmmoNoClip                          alpha                       255                         Linear 0.0 0.2
+        //Animate             AmmoNoClip                          alpha                       0                           Linear 0.2 0.4
 
         // Flash ammo reserve
-        Animate             AmmoInReserve                       alpha                       255                         Linear 0.0 0.2
-        Animate             AmmoInReserve                       alpha                       0                           Linear 0.2 0.4
+        //Animate             AmmoInReserve                       alpha                       255                         Linear 0.0 0.2
+        //Animate             AmmoInReserve                       alpha                       0                           Linear 0.2 0.4
 
         // Hide ammo box background
-        Animate             bh_AmmoBG                           alpha                       0                           Linear 0.0 0.0
+        //Animate             bh_AmmoBG                           alpha                       0                           Linear 0.0 0.0
 
         RunEvent            HudLowAmmoPulseLoop                                             0.4
     }

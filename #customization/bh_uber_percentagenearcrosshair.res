@@ -25,7 +25,7 @@
         "textAlignment"                                             "center"
         "dulltext"                                                  "0"
         "brighttext"                                                "0"
-        "font"                                                      "bh_Font16"
+        "font"                                                      "bh_Font_HealthAmmoMain"
         "fgcolor"                                                   "bh_white"
     }
 }

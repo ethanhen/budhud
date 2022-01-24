@@ -172,5 +172,18 @@ Scheme
 			"font"		"resource/fonts/crosshairs-fog.ttf"
 			"name"		"Crosshairs Regular"
 		}
+
+        "14" // Futura Font
+        {
+            "font"      "resource/fonts/FuturaLT.ttf"
+            "name"      "Futura LT Medium"
+        }
+
+        "15" // HelveticaLTStd-Bold
+        {
+            "font"      "resource/fonts/HelveticaLTStd-Bold.otf"
+            "name"      "HelveticaLTStd-Bold"
+
+        }
 	}
 }

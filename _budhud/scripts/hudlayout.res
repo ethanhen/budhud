@@ -35,8 +35,8 @@
         "fieldName"                                                 "HudWeaponAmmo"
         "visible"                                                   "1"
         "enabled"                                                   "1"
-        "xpos"                                                      "c50"
-        "ypos"                                                      "c41"
+        "xpos"                                                      "c-20"
+        "ypos"                                                      "c-20"
         "wide"                                                      "250"
         "tall"                                                      "150"
     }
@@ -251,7 +251,7 @@
 
     "CMainTargetID"
     {
-        "ypos"                                                      "c5"
+        "ypos"                                                      "c40"
         "tall"                                                      "80"
         "zpos"                                                      "1"
         "priority"                                                  "40"

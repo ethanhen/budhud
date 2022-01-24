@@ -25,7 +25,7 @@
     {
         "xpos"                                                      "c-300"
         "ypos"                                                      "c41"
-        "wide"                                                      "250"
+        "wide"                                                      "260"
         "tall"                                                      "150"
     }
 
@@ -33,8 +33,8 @@
     {
         "ControlName"                                               "Label"
         "fieldName"                                                 "bh_PlayerStatusPin"
-        "xpos"                                                      "196"
-        "ypos"                                                      "23"
+        "xpos"                                                      "210"
+        "ypos"                                                      "0"
         "zpos"                                                      "0"
         "wide"                                                      "10"
         "tall"                                                      "0"
@@ -62,11 +62,11 @@
 
     "PlayerStatusHealthValue"
     {
-        "xpos"                                                      "0"
-        "ypos"                                                      "0"
+        "xpos"                                                      "72"
+        "ypos"                                                      "-67"
         "zpos"                                                      "6"
-        "wide"                                                      "250"
-        "tall"                                                      "150"
+        "wide"                                                      "260"
+        "tall"                                                      "160"
         "font"                                                      "bh_Font_HealthAmmoMain"
         "fgcolor"                                                   "bh_Health_Main"
         "textAlignment"                                             "center"
@@ -81,7 +81,7 @@
         "ControlName"                                               "CExLabel"
         "fieldName"                                                 "PlayerStatusHealthValueShadow"
         "xpos"                                                      "-1"
-        "ypos"                                                      "-1"
+        "ypos"                                                      "-9001"
         "zpos"                                                      "6"
         "wide"                                                      "250"
         "tall"                                                      "150"
@@ -96,7 +96,7 @@
     "PlayerStatusHealthBonusImage"
     {
         "xpos"                                                      "108"
-        "ypos"                                                      "59"
+        "ypos"                                                      "-9001"
         "zpos"                                                      "-10"
         "wide"                                                      "34"
         "tall"                                                      "34"

@@ -19,7 +19,7 @@
         "ControlName"                                               "Label"
         "fieldName"                                                 "bh_ResistPin"
         "xpos"                                                      "c-16"
-        "ypos"                                                      "r136"
+        "ypos"                                                      "c40"
         "zpos"                                                      "0"
         "wide"                                                      "100"
         "tall"                                                      "0"
@@ -33,7 +33,7 @@
         "ControlName"                                               "Label"
         "fieldName"                                                 "bh_ChargePin"
         "xpos"                                                      "c-50"
-        "ypos"                                                      "r140"
+        "ypos"                                                      "c35"
         "zpos"                                                      "0"
         "wide"                                                      "100"
         "tall"                                                      "0"
@@ -45,7 +45,7 @@
     "ChargeMeter"
     {
         "xpos"                                                      "c-50"
-        "ypos"                                                      "c114"
+        "ypos"                                                      "c50"
         "wide"                                                      "100"
         "tall"                                                      "6"
         "fgcolor_override"                                          "bh_chargemeter"
@@ -114,12 +114,12 @@
 
     "IndividualChargesLabel"
     {
-        "xpos"                                                      "c50"
-        "ypos"                                                      "c41"
+        "xpos"                                                      "c-20"
+        "ypos"                                                      "c-20"
         "wide"                                                      "250"
         "tall"                                                      "150"
         "labeltext"                                                 "#TF_IndividualUberchargesMinHUD"
-        "font"                                                      "bh_Font40DropShadow"
+        "font"                                                      "bh_Font_HealthAmmoMain"
         "fgcolor"                                                   "bh_white"
         "textalignment"                                             "center"
     }
@@ -127,13 +127,13 @@
     "ChargeLabel"
     {
         "labelText"                                                 "#TF_UberchargeMinHUD"
-        "xpos"                                                      "c50"
-        "ypos"                                                      "c41"
+        "xpos"                                                      "c-20"
+        "ypos"                                                      "c-20"
         "zpos"                                                      "2"
         "wide"                                                      "250"
         "tall"                                                      "150"
         "textAlignment"                                             "center"
-        "font"                                                      "bh_Font40DropShadow"
+        "font"                                                      "bh_Font_HealthAmmoMain"
         "fgcolor"                                                   "bh_white"
     }
 

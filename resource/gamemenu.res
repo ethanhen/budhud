@@ -37,21 +37,20 @@
 
     "bh_TitleHover"
     {
-        "label"         "— budhud —"
+        "label"         "—>dubhud<—"
         "command"       "engine con_enable 1;showconsole;clear;
                         echo ======================================================;
                         echo ~~~~~~~~~~~~~~~~~ budhud, by Whisker ~~~~~~~~~~~~~~~~~;
-                        echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~;
+                        echo ~~~~~~~~~~~~~ ~ customized by swedrft. ~~~~~~~~~~~~~~~;
                         echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~;
                         echo ======================================================;
                         echo ~~~~~~~~~~~~ github.com/rbjaxter/budhud ~~~~~~~~~~~~~~;
                         echo ~~~~~~~~~ steamcommunity.com/groups/budhud ~~~~~~~~~~~;
-                        echo ~~~~~~~~ https://discord.com/invite/TkxNKU2 ~~~~~~~~~~;
                         echo ======================================================;
                         echo ~~~~~~~~ Please report bugs in the Discord! ~~~~~~~~~~;
                         echo ~ Thank you to everyone who actively uses my hud! ~~~~;
                         echo ======================================================;"
-        "tooltip"       "Updated September 21st, 2021"
+        "tooltip"       "Updated September 21st, 2021 (20210118)"
     }
 
     "bh_Streams"

@@ -54,7 +54,7 @@
         "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-1"
-        "ypos"                                                      "-1"
+        "ypos"                                                      "-9001"
         "wide"                                                      "250"
         "tall"                                                      "150"
         "font"                                                      "bh_Font_HealthAmmoMain"
@@ -81,7 +81,7 @@
         "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-1"
-        "ypos"                                                      "-1"
+        "ypos"                                                      "-9001"
         "zpos"                                                      "4"
         "wide"                                                      "250"
         "tall"                                                      "150"
@@ -112,7 +112,7 @@
         "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-1"
-        "ypos"                                                      "-1"
+        "ypos"                                                      "-9001"
         "wide"                                                      "250"
         "tall"                                                      "150"
         "font"                                                      "bh_Font_HealthAmmoMain"

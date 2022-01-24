@@ -59,7 +59,7 @@ Scheme
 
         "bh_Health_Main"                                            "255 255 255 255"
         "bh_Health_Shadow"                                          "000 000 000 255"
-        "bh_Health_Low"                                             "186 032 032 255"
+        "bh_Health_Low"                                             "210 044 044 255"
         "bh_Health_Buff"                                            "000 153 255 255"
         "bh_Health_Pickup"                                          "240 134 049 255"
 
@@ -71,7 +71,7 @@ Scheme
 
         "bh_Ammo_Main"                                              "255 255 255 255"
         "bh_Ammo_Reserve"                                           "255 255 255 255"
-        "bh_Ammo_Low"                                               "186 032 032 255"
+        "bh_Ammo_Low"                                               "210 044 044 255"
         "bh_Ammo_Main_Shadow"                                       "000 000 000 255"
         "bh_Ammo_Reserve_Shadow"                                    "000 000 000 255"
 
