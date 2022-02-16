@@ -1,20 +1,17 @@
 ## DUBHUD
 A Team Fortress 2 HUD built from the ground up using #base. Forked from budhud, modified by me.
 
+## CHANGES
+* Use Futura LT and Helvetica for all HUD elements and health/ammo respectively
+* Move ammo and health closer to center of the screen
+* Reorder floating bars such as healing targets to be more compact in the middle of the screen
+* Remove all flashing, cross, and shadow animations from health/ammo
+* Custom loading screen and main menu GIF
+
 ## HUD CREDITS
 https://github.com/rbjaxter/budhud
+https://github.com/rbjaxter/budhud/wiki/HUD-Credits
 
 ## Installation, Customization, etc
 https://github.com/rbjaxter/budhud/wiki
 
-## HUD Links:
-* Discord: https://discord.gg/PTWkt3h
-* Screenshots: http://imgur.com/a/aJ1K5
-* HUDS.TF: https://huds.tf/site/s-budhud
-* Steam Group: http://steamcommunity.com/groups/budhud
-
-## HUD Credits
-Full credits can be viewed here: https://github.com/rbjaxter/budhud/wiki/HUD-Credits
-
-## Screenshots
-Screenshots can be viewed here: https://imgur.com/a/aJ1K5
