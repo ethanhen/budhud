@@ -35,16 +35,15 @@
 
     "bh_budhudTitle"
     {
-        "label"                                                     "— budhud —"
+        "label"                                                     "— dubhud —"
         "command"                                                   "engine con_enable 1;showconsole;clear;
                                                                     echo ======================================================;
-                                                                    echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~;
                                                                     echo ~~~~~~~~~~~~~~~~~ budhud, by Whisker ~~~~~~~~~~~~~~~~~;
+                                                                    echo ~~~~~~~~~~~~~~~ customized by swedrft. ~~~~~~~~~~~~~~~;
                                                                     echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~;
                                                                     echo ======================================================;
                                                                     echo ~~~~~~~~~~~~ github.com/rbjaxter/budhud ~~~~~~~~~~~~~~;
                                                                     echo ~~~~~~~~~ steamcommunity.com/groups/budhud ~~~~~~~~~~~;
-                                                                    echo ~~~~~~~~~~~~~ discord.com/invite/TkxNKU2 ~~~~~~~~~~~~~;
                                                                     echo ======================================================;
                                                                     echo ~~~~~~~~ Please report bugs in the Discord! ~~~~~~~~~~;
                                                                     echo ~ Thank you to everyone who actively uses my hud! ~~~~;
