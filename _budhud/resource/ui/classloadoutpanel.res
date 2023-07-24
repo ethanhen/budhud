@@ -126,6 +126,35 @@
         }
     }
 
+    //"classmodelpanel"     // maybe newish settings
+    //{
+    //    "xpos"                                                      "c-145"
+    //    "ypos"                                                      "c-150"
+    //
+    //    "wide"                                                      "290"
+    //    "tall"                                                      "290"
+    //    "autoResize"                                                "0"
+    //    "pinCorner"                                                 "0"
+    //    "visible"                                                   "1"
+    //    "enabled"                                                   "1"
+    //
+    //    "render_texture"                                            "0"
+    //    "fov"                                                       "35"        // Higher FoV causes distortion
+    //    "allow_manip"                                               "1"
+    //
+    //    "model"
+    //    {
+    //        "force_pos"                                             "1"
+    //
+    //        "angles_x"                                              "0"
+    //        "angles_y"                                              "170"
+    //
+    //        "origin_x"                                              "150"       // Move towards and away relative to user
+    //        "origin_y"                                              "000"       // Move left/right relative to user
+    //        "origin_z"                                              "-40"       // Move up/down relative to user
+    //    }
+    //}
+
     "CharacterLoadoutButton"
     {
         "xpos"                                                      "c-166"
@@ -138,7 +167,7 @@
         {
             "wide"                                                  "17"
             "tall"                                                  "17"
-            "image"                                                 "replay\thumbnails\menu_icons\loadout"
+            "image"                                                 "replay/thumbnails/menu_icons/loadout"
         }
     }
 
@@ -154,7 +183,7 @@
         {
             "wide"                                                  "17"
             "tall"                                                  "17"
-            "image"                                                 "replay\thumbnails\menu_icons\taunts"
+            "image"                                                 "replay/thumbnails/menu_icons/taunts"
         }
     }
 

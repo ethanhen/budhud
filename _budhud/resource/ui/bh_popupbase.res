@@ -1,3 +1,5 @@
+// Now THIS is #base pod racing!
+
 "Resource/UI/bh_popupbase.res"
 {
     "BuildIcon"
@@ -70,6 +72,20 @@
         "enabled"                                                   "0"
     }
 
+    "ButtonLegendBG"
+    {
+        "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+    }
+
+    "ShadedBar"
+    {
+        "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+    }
+
     "bh_MenuPin"
     {
         "ControlName"                                               "Label"
@@ -131,10 +147,10 @@
         "tall"                                                      "2"
         "visible"                                                   "1"
         "enabled"                                                   "1"
-        "image"                                                     "replay\thumbnails\team_colors\bh_fill_gray"
-        "teambg_1"                                                  "replay\thumbnails\team_colors\bh_fill_gray"
-        "teambg_2"                                                  "replay\thumbnails\team_colors\bh_fill_red"
-        "teambg_3"                                                  "replay\thumbnails\team_colors\bh_fill_blue"
+        "image"                                                     "replay/thumbnails/team_colors/bh_fill_gray"
+        "teambg_1"                                                  "replay/thumbnails/team_colors/bh_fill_gray"
+        "teambg_2"                                                  "replay/thumbnails/team_colors/bh_fill_red"
+        "teambg_3"                                                  "replay/thumbnails/team_colors/bh_fill_blue"
     }
 
     "active_item_1"

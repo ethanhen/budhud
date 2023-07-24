@@ -4,6 +4,15 @@
 
 "Resource/UI/StorePage.res"
 {
+    "ClassFilterTooltipLabel"
+    {
+        "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+        "wide"                                                      "0"
+        "tall"                                                      "0"
+    }
+
     "StorePage"
     {
         "bgcolor_override"                                          "bh_Theme_BG20"
@@ -27,111 +36,111 @@
         {
             "all"
             {
-                "image_default"                                     "replay\thumbnails\improved_icons\leaderboard_all"
-                "image_armed"                                       "replay\thumbnails\improved_icons\leaderboard_all"
-                "image_selected"                                    "replay\thumbnails\improved_icons\leaderboard_all"
+                "image_default"                                     "replay/thumbnails/improved_icons/leaderboard_all"
+                "image_armed"                                       "replay/thumbnails/improved_icons/leaderboard_all"
+                "image_selected"                                    "replay/thumbnails/improved_icons/leaderboard_all"
                 "SubImage"
                 {
-                    "image"                                         "replay\thumbnails\improved_icons\leaderboard_all"
+                    "image"                                         "replay/thumbnails/improved_icons/leaderboard_all"
                 }
             }
 
             "scout"
             {
-                "image_default"                                     "replay\thumbnails\improved_icons\leaderboard_scout"
-                "image_armed"                                       "replay\thumbnails\improved_icons\leaderboard_scout"
-                "image_selected"                                    "replay\thumbnails\improved_icons\leaderboard_scout"
+                "image_default"                                     "replay/thumbnails/improved_icons/leaderboard_scout"
+                "image_armed"                                       "replay/thumbnails/improved_icons/leaderboard_scout"
+                "image_selected"                                    "replay/thumbnails/improved_icons/leaderboard_scout"
                 "SubImage"
                 {
-                    "image"                                         "replay\thumbnails\improved_icons\leaderboard_scout"
+                    "image"                                         "replay/thumbnails/improved_icons/leaderboard_scout"
                 }
             }
 
             "soldier"
             {
-                "image_default"                                     "replay\thumbnails\improved_icons\leaderboard_soldier"
-                "image_armed"                                       "replay\thumbnails\improved_icons\leaderboard_soldier"
-                "image_selected"                                    "replay\thumbnails\improved_icons\leaderboard_soldier"
+                "image_default"                                     "replay/thumbnails/improved_icons/leaderboard_soldier"
+                "image_armed"                                       "replay/thumbnails/improved_icons/leaderboard_soldier"
+                "image_selected"                                    "replay/thumbnails/improved_icons/leaderboard_soldier"
                 "SubImage"
                 {
-                    "image"                                         "replay\thumbnails\improved_icons\leaderboard_soldier"
+                    "image"                                         "replay/thumbnails/improved_icons/leaderboard_soldier"
                 }
             }
 
             "pyro"
             {
-                "image_default"                                     "replay\thumbnails\improved_icons\leaderboard_pyro"
-                "image_armed"                                       "replay\thumbnails\improved_icons\leaderboard_pyro"
-                "image_selected"                                    "replay\thumbnails\improved_icons\leaderboard_pyro"
+                "image_default"                                     "replay/thumbnails/improved_icons/leaderboard_pyro"
+                "image_armed"                                       "replay/thumbnails/improved_icons/leaderboard_pyro"
+                "image_selected"                                    "replay/thumbnails/improved_icons/leaderboard_pyro"
                 "SubImage"
                 {
-                    "image"                                         "replay\thumbnails\improved_icons\leaderboard_pyro"
+                    "image"                                         "replay/thumbnails/improved_icons/leaderboard_pyro"
                 }
             }
 
             "demo"
             {
-                "image_default"                                     "replay\thumbnails\improved_icons\leaderboard_demoman"
-                "image_armed"                                       "replay\thumbnails\improved_icons\leaderboard_demoman"
-                "image_selected"                                    "replay\thumbnails\improved_icons\leaderboard_demoman"
+                "image_default"                                     "replay/thumbnails/improved_icons/leaderboard_demoman"
+                "image_armed"                                       "replay/thumbnails/improved_icons/leaderboard_demoman"
+                "image_selected"                                    "replay/thumbnails/improved_icons/leaderboard_demoman"
                 "SubImage"
                 {
-                    "image"                                         "replay\thumbnails\improved_icons\leaderboard_demoman"
+                    "image"                                         "replay/thumbnails/improved_icons/leaderboard_demoman"
                 }
             }
 
             "heavy"
             {
-                "image_default"                                     "replay\thumbnails\improved_icons\leaderboard_heavy"
-                "image_armed"                                       "replay\thumbnails\improved_icons\leaderboard_heavy"
-                "image_selected"                                    "replay\thumbnails\improved_icons\leaderboard_heavy"
+                "image_default"                                     "replay/thumbnails/improved_icons/leaderboard_heavy"
+                "image_armed"                                       "replay/thumbnails/improved_icons/leaderboard_heavy"
+                "image_selected"                                    "replay/thumbnails/improved_icons/leaderboard_heavy"
                 "SubImage"
                 {
-                    "image"                                         "replay\thumbnails\improved_icons\leaderboard_heavy"
+                    "image"                                         "replay/thumbnails/improved_icons/leaderboard_heavy"
                 }
             }
 
             "engineer"
             {
-                "image_default"                                     "replay\thumbnails\improved_icons\leaderboard_engineer"
-                "image_armed"                                       "replay\thumbnails\improved_icons\leaderboard_engineer"
-                "image_selected"                                    "replay\thumbnails\improved_icons\leaderboard_engineer"
+                "image_default"                                     "replay/thumbnails/improved_icons/leaderboard_engineer"
+                "image_armed"                                       "replay/thumbnails/improved_icons/leaderboard_engineer"
+                "image_selected"                                    "replay/thumbnails/improved_icons/leaderboard_engineer"
                 "SubImage"
                 {
-                    "image"                                         "replay\thumbnails\improved_icons\leaderboard_engineer"
+                    "image"                                         "replay/thumbnails/improved_icons/leaderboard_engineer"
                 }
             }
 
             "medic"
             {
-                "image_default"                                     "replay\thumbnails\improved_icons\leaderboard_medic"
-                "image_armed"                                       "replay\thumbnails\improved_icons\leaderboard_medic"
-                "image_selected"                                    "replay\thumbnails\improved_icons\leaderboard_medic"
+                "image_default"                                     "replay/thumbnails/improved_icons/leaderboard_medic"
+                "image_armed"                                       "replay/thumbnails/improved_icons/leaderboard_medic"
+                "image_selected"                                    "replay/thumbnails/improved_icons/leaderboard_medic"
                 "SubImage"
                 {
-                    "image"                                         "replay\thumbnails\improved_icons\leaderboard_medic"
+                    "image"                                         "replay/thumbnails/improved_icons/leaderboard_medic"
                 }
             }
 
             "sniper"
             {
-                "image_default"                                     "replay\thumbnails\improved_icons\leaderboard_sniper"
-                "image_armed"                                       "replay\thumbnails\improved_icons\leaderboard_sniper"
-                "image_selected"                                    "replay\thumbnails\improved_icons\leaderboard_sniper"
+                "image_default"                                     "replay/thumbnails/improved_icons/leaderboard_sniper"
+                "image_armed"                                       "replay/thumbnails/improved_icons/leaderboard_sniper"
+                "image_selected"                                    "replay/thumbnails/improved_icons/leaderboard_sniper"
                 "SubImage"
                 {
-                    "image"                                         "replay\thumbnails\improved_icons\leaderboard_sniper"
+                    "image"                                         "replay/thumbnails/improved_icons/leaderboard_sniper"
                 }
             }
 
             "spy"
             {
-                "image_default"                                     "replay\thumbnails\improved_icons\leaderboard_spy"
-                "image_armed"                                       "replay\thumbnails\improved_icons\leaderboard_spy"
-                "image_selected"                                    "replay\thumbnails\improved_icons\leaderboard_spy"
+                "image_default"                                     "replay/thumbnails/improved_icons/leaderboard_spy"
+                "image_armed"                                       "replay/thumbnails/improved_icons/leaderboard_spy"
+                "image_selected"                                    "replay/thumbnails/improved_icons/leaderboard_spy"
                 "SubImage"
                 {
-                    "image"                                         "replay\thumbnails\improved_icons\leaderboard_spy"
+                    "image"                                         "replay/thumbnails/improved_icons/leaderboard_spy"
                 }
             }
         }
@@ -174,14 +183,20 @@
 
     "NameFilterTextEntry"
     {
-        "bgcolor_override"                                          "bh_white"
+        "font"                                                      "bh_Font12"
+        "fgcolor_override"                                          "bh_black"
         "selectionColor_override"                                   "bh_Theme_TextAccent"
+        "selectionTextColor_override"                               "bh_white"
+        "bgcolor_override"                                          "bh_white"
     }
 
-    "SortFilterComboBox"
+    "SubcategoryFilterComboBox"
     {
-        "bgcolor_override"                                          "bh_white"
+        "border_override"                                           "bh_b_NESW"
+        "fgcolor_override"                                          "bh_white"
         "selectionColor_override"                                   "bh_Theme_TextAccent"
+        "selectionTextColor_override"                               "bh_white"
+        "bgcolor_override"                                          "bh_Theme_BG20"
 
         "Button"
         {
@@ -194,23 +209,13 @@
         }
     }
 
-    "SubcategoryFilterBox"
+    "SortFilterComboBox"
     {
-        "defaultBgColor_override"                                   "bh_ButtonBlank"
-        "armedBgColor_override"                                     "bh_ButtonBlank"
-        "depressedBgColor_override"                                 "bh_ButtonBlank"
-        "defaultFgColor_override"                                   "bh_gray"
-        "armedFgColor_override"                                     "bh_Theme_TextAccent"
-        "depressedFgColor_override"                                 "bh_ButtonDepressed"
-    }
-
-    "SubcategoryFilterComboBox"
-    {
+        "border_override"                                           "bh_b_NESW"
         "fgcolor_override"                                          "bh_white"
-        "bgcolor_override"                                          "bh_blank"
-        "disabledFgColor_override"                                  "bh_white"
-        "selectionColor_override"                                   "bh_blank"
+        "selectionColor_override"                                   "bh_Theme_TextAccent"
         "selectionTextColor_override"                               "bh_white"
+        "bgcolor_override"                                          "bh_Theme_BG20"
 
         "Button"
         {
@@ -303,9 +308,9 @@
 
     "BackpackSpaceLabel"
     {
-        "xpos"                                                      "c-100"
+        "xpos"                                                      "cs-0.5"
         "ypos"                                                      "320"
-        "wide"                                                      "200"
+        "wide"                                                      "f0"
         "textAlignment"                                             "center"
     }
 }

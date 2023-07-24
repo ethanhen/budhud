@@ -54,7 +54,7 @@ Scheme
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Health
     // ============================================================================================== //
-    // Health animations are controlled in `\budhud\scripts\hudanimations_manifest.txt`
+    // Health animations are controlled in `/budhud/scripts/hudanimations_manifest.txt`
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
         "bh_Health_Main"                                            "255 255 255 255"
@@ -66,7 +66,7 @@ Scheme
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Ammo
     // ============================================================================================== //
-    // Ammo animations are controlled in `\budhud\scripts\hudanimations_manifest.txt`
+    // Ammo animations are controlled in `/budhud/scripts/hudanimations_manifest.txt`
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
         "bh_Ammo_Main"                                              "255 255 255 255"
@@ -138,7 +138,7 @@ Scheme
 
         "bh_meterfg"                                                "254 002 209 255"
         "bh_meterbg"                                                "254 002 209 255"
-        "bh_metertext"                                              "254 002 209 255"
+        "bh_metertext"                                              "000 000 000 255"   // disabledfgcolor2_override color
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Menu Colors
@@ -165,10 +165,10 @@ Scheme
         //////////
         // October
         //////////
-        // "bh_menu_foreground1"                                    "255 255 255 255"   // White
-        // "bh_menu_foreground2"                                    "255 255 255 255"   // White
-        // "bh_menu_background1"                                    "124 016 173 255"   // Spooky Purple
-        // "bh_menu_background2"                                    "241 088 002 255"   // Spooky Orange
+        "bh_menu_foreground_october1"                               "255 255 255 255"   // White
+        "bh_menu_foreground_october2"                               "255 255 255 255"   // White
+        "bh_menu_background_october1"                               "124 016 173 255"   // Spooky Purple
+        "bh_menu_background_october2"                               "241 088 002 255"   // Spooky Orange
 
         ///////////
         // December
@@ -177,6 +177,14 @@ Scheme
         "bh_menu_foreground_december2"                              "255 255 255 255"   // White
         "bh_menu_background_december1"                              "194 023 023 255"   // Dark Red
         "bh_menu_background_december2"                              "060 141 013 255"   // Dark Green
+
+        ////////////
+        // Synthwave
+        ////////////
+        "bh_menu_foreground_synthwave1"                             "255 255 255 255"   // White
+        "bh_menu_foreground_synthwave2"                             "255 255 255 255"   // White
+        "bh_menu_background_synthwave1"                             "113 219 212 255"   // Andes Sky
+        "bh_menu_background_synthwave2"                             "088 167 175 255"   // Explorer Blue
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Stats Colors
@@ -270,6 +278,9 @@ Scheme
         "bh_blank"                                                  "000 000 000 000"
         "bh_yellow"                                                 "231 181 059 255"
 
+        "bh_Shadow"                                                 "000 000 000 255"
+        "bh_isError"                                                "254 002 209 255"       // Bright pink to locate
+
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Themes - Experimental
     ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -297,29 +308,18 @@ Scheme
         "bh_BGBlue"                                                 "070 130 180 090"
         "bh_BGRed"                                                  "205 050 050 090"
 
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Item Rarity Colors
-    // ============================================================================================== //
-    // Item quality colors in backpack
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-        "QualityColorNormal"                                        "150 150 150 255"   // Stock item color (item is selected)
-
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-
-        "bh_Shadow"                                                 "000 000 000 255"
-        "bh_isError"                                                "254 002 209 255"       // Bright pink to locate
-
+        "QualityColorNormal"                                        "150 150 150 255"       // Stock item color (item is selected)
         "TFOrange"                                                  "085 085 085 255"       // Backpack page number BG (selected page color)
         "Orange"                                                    "240 134 049 255"       // Used in vote menu headers (I believe)
         "LightRed"                                                  "254 002 209 255"       // Bright pink to locate
         "LighterRed"                                                "254 002 209 255"       // Bright pink to locate
         "TanLight"                                                  "255 255 255 255"       // Used in far too many places to want to do anything but change it here
-        "TanDark"                                                   "150 150 150 255"       // Used in advanced options, backpack context menu (text color), and dropbox text color (when highlighted)
+        "TanDark"                                                   "255 255 255 255"       // Used in advanced options
 
         // Engineer HUD Specific
         "LowHealthRed"                                              "159 055 055 255"       // When building is low health or is in first stage of building
         "ProgressOffWhite"                                          "255 255 255 255"       // Right build progress and ammo bars
-        "ProgressBackground"                                        "150 150 150 255"       // Right "Building..." Progress color BG, ItemEffectMeter BG
+        "ProgressBackground"                                        "150 150 150 255"       // Right `Building...` Progress color BG, ItemEffectMeter BG
         "HealthBgGrey"                                              "080 080 080 255"       // Left build progress bar
 
         "LabelDark"                                                 "000 000 000 255"       // Blog text
@@ -333,10 +333,19 @@ Scheme
 
     BaseSettings
     {
-        // Saving for future consideration
-        "MenuBoxBg"                                                 "0 0 0 100"
+        // Scoreboard
+        // Highlighted player
+        "SectionedListPanel.OutOfFocusSelectedBgColor"              "065 065 065 25"
 
-        // weapon selection colors
+        // Context menu (backpack, medal select on main menu, etc)
+        // Font: HudFontMediumSecondary
+        "Menu.TextColor"                                            "bh_white"
+        "Menu.BgColor"                                              "bh_Theme_BG20"
+        "Menu.ArmedTextColor"                                       "bh_orange"
+        "Menu.ArmedBgColor"                                         "bh_Theme_BG40"
+        "Menu.TextInset"                                            "10"
+
+        // Weapon Selection Colors
         "SelectionNumberFg"                                         "255 255 255 255"
         "SelectionTextFg"                                           "255 255 255 255"
         "SelectionEmptyBoxBg"                                       "0 0 0 80"
@@ -348,8 +357,14 @@ Scheme
         "HintMessageFg"                                             "255 255 255 255"
         "HintMessageBg"                                             "000 000 000 060"
 
-        "FgColor"                                                   "255 255 255 255"       // Controls color of HudHintKeyDisplay (surf/jump timer)
-        "BgColor"                                                   "000 000 000 060"       // Does nothing
+        // Controls color of HudHintKeyDisplay (surf/jump timer)
+        "FgColor"                                                   "255 255 255 255"
+
+        // Vote menu (center left)
+        // CHudMenu
+        "ItemColor"                                                 "255 255 255 255"
+        "MenuColor"                                                 "255 255 255 255"
+        "MenuBoxBg"                                                 "000 000 000 100"
 
         // vgui_controls color specifications
         ReplayBrowser.Details.TitleEdit.Carat.FgColor               "bh_Theme_TextAccent"
@@ -363,6 +378,9 @@ Scheme
         Econ.Button.DepressedFgColor                                "bh_ButtonDepressed"
 
         // Loadout presets
+        Econ.Button.PresetDefaultColorFg                            "bh_Theme_TextSecondary"
+        Econ.Button.PresetArmedColorFg                              "bh_Theme_TextSecondary"
+        Econ.Button.PresetDepressedColorFg                          "bh_Theme_TextSecondary"
         Econ.Button.PresetDefaultColorBg                            "150 150 150 255"
         Econ.Button.PresetArmedColorBg                              "50 50 50 255"
         Econ.Button.PresetDepressedColorBg                          "25 25 25 255"
@@ -380,16 +398,10 @@ Scheme
         // Backpack "Stock Items" checkmark
         CheckButton.TextColor                                       "bh_white"
         CheckButton.SelectedTextColor                               "bh_white"
-        CheckButton.BgColor                                         "bh_white"
+        CheckButton.BgColor                                         "bh_black"
         CheckButton.Border1                                         "bh_white"          // Left
         CheckButton.Border2                                         "bh_white"          // Right
-        CheckButton.Check                                           "bh_black"          // Color of the check itself
+        CheckButton.Check                                           "bh_white"          // Color of the check itself
         CheckButton.HighlightFgColor                                "bh_white"
-
-        // Vote menu (center left)
-        // CHudMenu
-        "ItemColor"                                                 "255 255 255 255"
-        "MenuColor"                                                 "255 255 255 255"
-        "MenuBoxBg"                                                 "000 000 000 100"
     }
 }

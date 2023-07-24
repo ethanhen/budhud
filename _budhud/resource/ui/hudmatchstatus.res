@@ -138,7 +138,6 @@
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
-            "enabled"                                               "0"
         }
     }
 
@@ -179,6 +178,15 @@
             "color_portrait_blend_dead_red"                         "bh_white"
             "color_portrait_blend_dead_blue"                        "bh_white"
 
+            ////////////////////////////////////////////////////////////////////////////////////////////////////
+            // HUD DEVELOPERS: IF YOU MESS WITH HEALTHICON, DO NOT SET VISIBLE FOR THIS ELEMENT TO 1
+            // REDUCES FPS BY A LOT (~13 FPS FOR ME) WHILE THE ELEMENT ITSELF DOES NOTHING
+            ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+            // "HealthIcon"
+            // {
+            // }
+
             "healthbar"
             {
                 "ypos"                                              "20"
@@ -212,7 +220,7 @@
 
             "SkullPanel"
             {
-                "image"                                             "replay\thumbnails\skull"
+                "image"                                             "replay/thumbnails/ingame_icons/skull"
 
                 "zpos"                                              "0"
                 "wide"                                              "6"

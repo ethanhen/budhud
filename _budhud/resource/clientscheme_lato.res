@@ -1,864 +1,870 @@
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Don't edit unless you know what you're doing!
-	// ============================================================================================== //
-	// Note: Include quotes around font defs when replacing
-	////////////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Don't edit unless you know what you're doing!
+    // ============================================================================================== //
+    // Note: Include quotes around font defs when replacing
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Occurences (replaced)
-	// ============================================================================================== //
-	// Verdana: 81
-	// TF2 Secondary: 48
-	// TF2 Build: 32
-	// TF2: 31
-	// ocra: 12
-	// Tahoma: 7
-	// Arial: 5
-	// TF2 Professor: 6
-	// Trebuchet MS: 5
-	// Courier New: 2
-	// Arial Black: 1
-	// Helvetica: 1
-	////////////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Occurences (replaced)
+    // ============================================================================================== //
+    // Verdana: 81
+    // TF2 Secondary: 47
+    // TF2 Build: 31
+    // TF2: 30
+    // ocra: 12
+    // OCR A Extended: 12
+    // Tahoma: 7
+    // Arial: 5
+    // TF2 Professor: 5
+    // Trebuchet MS: 5
+    // Courier New: 2
+    // Arial Black: 1
+    // Helvetica: 1
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Occurences (not replaced)
-	// ============================================================================================== //
-	// Buttons: 3
-	// ButtonsSC: 3
-	// Marlett: 3
-	// Team Fortress: 2
-	// tfd: 1
-	////////////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Occurences (not replaced)
+    // ============================================================================================== //
+    // Buttons: 3
+    // ButtonsSC: 3
+    // Marlett: 3
+    // Team Fortress: 2
+    // tfd: 1
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 Scheme
 {
-	Fonts
-	{
-		////////////////////////////////////////////////////////////////////////////////////////////////////
-		// Font used to show abnormal unicode characters in vote menus with [?]
-		////////////////////////////////////////////////////////////////////////////////////////////////////
+    Fonts
+    {
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+        // Font used to show abnormal unicode characters in vote menus with [?]
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
         "bh_Font_BotChars10"
         {
             "1"
             {
-                "name"												"Lato Semibold Modified"
-                "tall"												"10"
-                "weight"											"0"
-                "outline"											"0"
-                "additive"											"0"
-                "antialias"											"1"
+                "name"                                              "Lato Semibold Modified"
+                "tall"                                              "10"
+                "weight"                                            "0"
+                "outline"                                           "0"
+                "additive"                                          "0"
+                "antialias"                                         "1"
             }
         }
 
-		////////////////////////////////////////////////////////////////////////////////////////////////////
-		// Font used for teammate floating health bars (player names)
-		////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+        // Font used for teammate floating health bars (player names)
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
         "DefaultFixedOutline"
         {
             "1"
             {
-                "name"												"Lato Semibold"
-                "tall"												"12"
-                "weight"											"0"
-                "outline"											"0"
-                "additive"											"0"
-                "antialias"											"1"
+                "name"                                              "Lato Semibold"
+                "tall"                                              "12"
+                "weight"                                            "0"
+                "outline"                                           "0"
+                "additive"                                          "0"
+                "antialias"                                         "1"
             }
         }
 
-		////////////////////////////////////////////////////////////////////////////////////////////////////
-		// Specific Fonts
-		// Used by specific HUD elements
-		////////////////////////////////////////////////////////////////////////////////////////////////////
-
-		bh_Font_HealthAmmoMain
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"40"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font_AmmoReserve
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"24"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"0"
-			}
-		}
-
-		////////////////////////////////////////////////////////////////////////////////////////////////////
-		// General Fonts
-		// Font entries shared by multiple HUD elements
-		////////////////////////////////////////////////////////////////////////////////////////////////////
-
-		////////////////////////////////////////////////////////////////////////////////////////////////////
-		// Font w/ antialias only
-		////////////////////////////////////////////////////////////////////////////////////////////////////
-
-		bh_Font6
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"6"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font8
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"8"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font10
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"10"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font12
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"12"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font14
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"14"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font16
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"16"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font18
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"18"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font20
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"20"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font22
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"22"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font24
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"24"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font26
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"26"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font28
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"28"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font30
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"30"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font32
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"32"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font36
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"36"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font40
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"40"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font48
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"48"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font50
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"50"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font60
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"60"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"0"
-			}
-		}
-
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Font w/ Drop Shadow
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-
-		bh_Font6DropShadow
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"6"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"1"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font8DropShadow
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"8"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"1"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font10DropShadow
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"10"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"1"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font12DropShadow
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"12"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"1"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font14DropShadow
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"14"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"1"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font16DropShadow
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"16"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"1"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font18DropShadow
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"18"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"1"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font20DropShadow
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"20"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"1"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font22DropShadow
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"22"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"1"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font24DropShadow
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"24"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"1"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font26DropShadow
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"26"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"1"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font28DropShadow
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"28"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"1"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font30DropShadow
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"30"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"1"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font32DropShadow
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"32"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"1"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font36DropShadow
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"36"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"1"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font40DropShadow
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"40"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"1"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font48DropShadow
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"48"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"1"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font50DropShadow
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"50"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"1"
-				"outline"											"0"
-			}
-		}
-
-		bh_Font60DropShadow
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"60"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"1"
-				"outline"											"0"
-			}
-		}
-
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Font w/ Outline
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-
-		bh_Font6Outline
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"6"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"1"
-			}
-		}
-
-		bh_Font8Outline
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"8"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"1"
-			}
-		}
-
-		bh_Font10Outline
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"10"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"1"
-			}
-		}
-
-		bh_Font12Outline
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"12"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"1"
-			}
-		}
-
-		bh_Font14Outline
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"14"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"1"
-			}
-		}
-
-		bh_Font16Outline
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"16"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"1"
-			}
-		}
-
-		bh_Font18Outline
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"18"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"1"
-			}
-		}
-
-		bh_Font20Outline
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"20"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"1"
-			}
-		}
-
-		bh_Font22Outline
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"22"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"1"
-			}
-		}
-
-		bh_Font24Outline
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"24"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"1"
-			}
-		}
-
-		bh_Font26Outline
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"26"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"1"
-			}
-		}
-
-		bh_Font28Outline
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"28"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"1"
-			}
-		}
-
-		bh_Font30Outline
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"30"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"1"
-			}
-		}
-
-		bh_Font32Outline
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"32"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"1"
-			}
-		}
-
-		bh_Font36Outline
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"36"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"1"
-			}
-		}
-
-		bh_Font40Outline
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"40"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"1"
-			}
-		}
-
-		bh_Font48Outline
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"48"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"1"
-			}
-		}
-
-		bh_Font50Outline
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"50"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"1"
-			}
-		}
-
-		bh_Font60Outline
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"60"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"0"
-				"outline"											"1"
-			}
-		}
-
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Default clientscheme + replace-all
-	////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+        // Font used for text shown in center of screen (game_text font)
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+        // CenterPrintText
+
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+        // Specific Fonts
+        // Used by specific HUD elements
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        bh_Font_HealthAmmoMain
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "40"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font_AmmoReserve
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "24"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "0"
+            }
+        }
+
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+        // General Fonts
+        // Font entries shared by multiple HUD elements
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+        // Font w/ antialias only
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        bh_Font6
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "6"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font8
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "8"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font10
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "10"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font12
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "12"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font14
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "14"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font16
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "16"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font18
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "18"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font20
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "20"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font22
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "22"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font24
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "24"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font26
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "26"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font28
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "28"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font30
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "30"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font32
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "32"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font36
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "36"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font40
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "40"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font48
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "48"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font50
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "50"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font60
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "60"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "0"
+            }
+        }
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Font w/ Drop Shadow
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        bh_Font6DropShadow
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "6"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "1"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font8DropShadow
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "8"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "1"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font10DropShadow
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "10"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "1"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font12DropShadow
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "12"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "1"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font14DropShadow
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "14"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "1"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font16DropShadow
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "16"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "1"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font18DropShadow
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "18"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "1"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font20DropShadow
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "20"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "1"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font22DropShadow
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "22"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "1"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font24DropShadow
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "24"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "1"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font26DropShadow
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "26"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "1"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font28DropShadow
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "28"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "1"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font30DropShadow
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "30"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "1"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font32DropShadow
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "32"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "1"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font36DropShadow
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "36"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "1"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font40DropShadow
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "40"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "1"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font48DropShadow
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "48"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "1"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font50DropShadow
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "50"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "1"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font60DropShadow
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "60"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "1"
+                "outline"                                           "0"
+            }
+        }
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Font w/ Outline
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        bh_Font6Outline
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "6"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "1"
+            }
+        }
+
+        bh_Font8Outline
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "8"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "1"
+            }
+        }
+
+        bh_Font10Outline
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "10"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "1"
+            }
+        }
+
+        bh_Font12Outline
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "12"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "1"
+            }
+        }
+
+        bh_Font14Outline
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "14"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "1"
+            }
+        }
+
+        bh_Font16Outline
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "16"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "1"
+            }
+        }
+
+        bh_Font18Outline
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "18"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "1"
+            }
+        }
+
+        bh_Font20Outline
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "20"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "1"
+            }
+        }
+
+        bh_Font22Outline
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "22"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "1"
+            }
+        }
+
+        bh_Font24Outline
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "24"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "1"
+            }
+        }
+
+        bh_Font26Outline
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "26"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "1"
+            }
+        }
+
+        bh_Font28Outline
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "28"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "1"
+            }
+        }
+
+        bh_Font30Outline
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "30"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "1"
+            }
+        }
+
+        bh_Font32Outline
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "32"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "1"
+            }
+        }
+
+        bh_Font36Outline
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "36"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "1"
+            }
+        }
+
+        bh_Font40Outline
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "40"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "1"
+            }
+        }
+
+        bh_Font48Outline
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "48"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "1"
+            }
+        }
+
+        bh_Font50Outline
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "50"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "1"
+            }
+        }
+
+        bh_Font60Outline
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "60"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "1"
+            }
+        }
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Default clientscheme + replace-all
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
@@ -877,7 +883,7 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"13"	[$WIN32]
-				"tall"		"20"	[disabled]
+				"tall"		"20"	[$_disabled_]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
@@ -1110,8 +1116,8 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"Lato Semibold" [!$OSX]
-				"name"		"Lato Semibold" [disabled]
+				"name"		"Lato Semibold" [!$_disabled_]
+				"name"		"Lato Semibold" [$_disabled_]
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" "1"
@@ -1143,7 +1149,7 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"13"	[$WIN32]
-				"tall"		"23"	[disabled]
+				"tall"		"23"	[$_disabled_]
 				"weight"	"700"
 				"yres"	"600 767"
 			}
@@ -1175,7 +1181,7 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"24"
-				"tall_disabled"	"80"
+				"tall$_disabled_"	"80"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1185,7 +1191,7 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"32"
-				"tall_disabled"	"120"
+				"tall$_disabled_"	"120"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1225,7 +1231,7 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"44"
-				"tall_disabled"	"52"
+				"tall$_disabled_"	"52"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1238,7 +1244,7 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"35"
-				"tall_disabled"	"40"
+				"tall$_disabled_"	"40"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1251,7 +1257,7 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"36"
-				"tall_disabled"	"48"
+				"tall$_disabled_"	"48"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1285,7 +1291,7 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"24"
-				"tall_disabled"		"28"
+				"tall$_disabled_"		"28"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1330,8 +1336,8 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"18"
-				"tall_disabled"	"24"
-				"tall_disabled"	"18"
+				"tall$_disabled_"	"24"
+				"tall$_disabled_"	"18"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1343,8 +1349,8 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"18"
-				"tall_disabled"	"24"
-				"tall_disabled"	"20"
+				"tall$_disabled_"	"24"
+				"tall$_disabled_"	"20"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1356,7 +1362,7 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"14"
-				"tall_disabled"	"16"
+				"tall$_disabled_"	"16"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1502,8 +1508,8 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"12"
-				"tall_disabled"	"14"
-				"tall_disabled"	"16"
+				"tall$_disabled_"	"14"
+				"tall$_disabled_"	"16"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1522,19 +1528,19 @@ Scheme
 		}
 		GameUIButtons
 		{
-			"1"	//[disabled]
+			"1"	//[$_disabled_]
 			{
 				"bitmap"	"1"
 				"name"		"Buttons"
 				"scalex"	"0.5"
-				"scalex_disabled"		"0.75"
+				"scalex$_disabled_"		"0.75"
 				"scaley"	"0.5"
-				"scaley_disabled"		"0.75"
+				"scaley$_disabled_"		"0.75"
 			}
 		}
 		GameUIButtonsSmall
 		{
-			"1"	[disabled]
+			"1"	[$_disabled_]
 			{
 				"bitmap"	"1"
 				"name"		"Buttons"
@@ -1544,7 +1550,7 @@ Scheme
 		}
 		GameUIButtonsSmallest
 		{
-			"1"	[disabled]
+			"1"	[$_disabled_]
 			{
 				"bitmap"	"1"
 				"name"		"Buttons"
@@ -1559,9 +1565,9 @@ Scheme
 				"bitmap"	"1"
 				"name"		"ButtonsSC"
 				"scalex"	"0.5"
-				"scalex_disabled"		"0.75"
+				"scalex$_disabled_"		"0.75"
 				"scaley"	"0.5"
-				"scaley_disabled"		"0.75"
+				"scaley$_disabled_"		"0.75"
 			}
 		}
 		GameUIButtonsSteamControllerSmall
@@ -1590,8 +1596,8 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"18"
-				"tall_disabled"	"24"
-				"tall_disabled"	"18"
+				"tall$_disabled_"	"24"
+				"tall$_disabled_"	"18"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1603,8 +1609,8 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"16"
-				"tall_disabled"	"22"
-				"tall_disabled"	"22"
+				"tall$_disabled_"	"22"
+				"tall$_disabled_"	"22"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1638,8 +1644,8 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"8"
-				"tall_disabled"	"9"
-				"tall_disabled"	"10"
+				"tall$_disabled_"	"9"
+				"tall$_disabled_"	"10"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1651,7 +1657,7 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"8"
-				"tall_disabled"	"7"
+				"tall$_disabled_"	"7"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1673,7 +1679,7 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"15"	[$WIN32]
-				"tall"		"21"	[disabled]
+				"tall"		"21"	[$_disabled_]
 				"weight"	"700"
 				"antialias" 	"1"
 				"yres"		"600 767"
@@ -1718,7 +1724,7 @@ Scheme
 				"outline"	"1"
 				"range"		"0x0000 0x017F" // Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
-			"1"	[disabled]
+			"1"	[$_disabled_]
 			{
 				"name"		"Lato Semibold"
 				"tall"		"18"
@@ -1787,7 +1793,7 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"24"
-				"tall_disabled"	"32"
+				"tall$_disabled_"	"32"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
@@ -1798,7 +1804,7 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"24"
-				"tall_disabled"	"32"
+				"tall$_disabled_"	"32"
 				"weight"	"500"
 				"italic"	"1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1810,7 +1816,7 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"24"
-				"tall_disabled"	"32"
+				"tall$_disabled_"	"32"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
@@ -1821,7 +1827,7 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"24"
-				"tall_disabled"	"32"
+				"tall$_disabled_"	"32"
 				"weight"	"900"
 				"italic"	"1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1833,7 +1839,7 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"16"
-				"tall_disabled"	"24"
+				"tall$_disabled_"	"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
@@ -1878,7 +1884,7 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"11"
-				"tall_disabled"	"14"
+				"tall$_disabled_"	"14"
 				"antialias" "1"
 				"weight"	"500"
 			}
@@ -1900,8 +1906,8 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"13"
-				"tall_disabled"	"14"
-				"tall_disabled"	"17"
+				"tall$_disabled_"	"14"
+				"tall$_disabled_"	"17"
 				"weight"	"800"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1914,13 +1920,13 @@ Scheme
 			{
 				"name"			"Lato Semibold"
 				"tall"			"28"
-				"tall_disabled"	"48"
-				"tall_disabled"	"48"
+				"tall$_disabled_"	"48"
+				"tall$_disabled_"	"48"
 				"antialias"		"1"
-				"custom"		"1" [disabled]
+				"custom"		"1" [$_disabled_]
 				"weight"		"500"
-				"weight_disabled"	"800"
-				"weight_disabled"	"1000"
+				"weight$_disabled_"	"800"
+				"weight$_disabled_"	"1000"
 			}
 		}
 		"ChalkboardTitleBig"
@@ -1929,13 +1935,13 @@ Scheme
 			{
 				"name"			"Lato Semibold"
 				"tall"			"40"
-				"tall_disabled"	"48"
-				"tall_disabled"	"48"
+				"tall$_disabled_"	"48"
+				"tall$_disabled_"	"48"
 				"antialias"		"1"
-				"custom"		"1" [disabled]
+				"custom"		"1" [$_disabled_]
 				"weight"		"500"
-				"weight_disabled"	"800"
-				"weight_disabled"	"1000"
+				"weight$_disabled_"	"800"
+				"weight$_disabled_"	"1000"
 			}
 		}
 		"ChalkboardTitleMedium"
@@ -1944,10 +1950,10 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"24"
-				"tall_disabled"	"36"
-				"tall_disabled"	"36"
+				"tall$_disabled_"	"36"
+				"tall$_disabled_"	"36"
 				"antialias" "1"
-				"custom"		"1" [disabled]
+				"custom"		"1" [$_disabled_]
 				"weight"	"500"
 			}
 		}
@@ -1956,12 +1962,12 @@ Scheme
 			"1"
 			{
 				"name"			"Lato Semibold"
-				"tall"			"14" [!$OSX]
-				"tall"			"15" [disabled]
-				"tall_disabled"	"32"
-				"tall_disabled"	"32"
+				"tall"			"14" [!$_disabled_]
+				"tall"			"15" [$_disabled_]
+				"tall$_disabled_"	"32"
+				"tall$_disabled_"	"32"
 				"antialias"		"1"
-				"custom"		"1" [disabled]
+				"custom"		"1" [$_disabled_]
 				"weight"		"500"
 			}
 		}
@@ -1982,8 +1988,8 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"8"
-				"tall_disabled"	"10"
-				"tall_disabled"	"14"
+				"tall$_disabled_"	"10"
+				"tall$_disabled_"	"14"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1995,8 +2001,8 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"10"
-				"tall_disabled"	"12"
-				"tall_disabled"	"14"
+				"tall$_disabled_"	"12"
+				"tall$_disabled_"	"14"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -2032,8 +2038,8 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"20"
-				"tall_disabled"	"24"
-				"tall_disabled"	"24"
+				"tall$_disabled_"	"24"
+				"tall$_disabled_"	"24"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -2070,8 +2076,8 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"34"
-				"tall_disabled"	"38"
-				"tall_disabled"	"38"
+				"tall$_disabled_"	"38"
+				"tall$_disabled_"	"38"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -2085,7 +2091,7 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"36"
-				"tall_disabled"	"48"
+				"tall$_disabled_"	"48"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -2097,7 +2103,7 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"52"
-				"tall_disabled"		"80"
+				"tall$_disabled_"		"80"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
 				"yres"		"1 599"
@@ -2107,7 +2113,7 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"72"
-				"tall_disabled"	"120"
+				"tall$_disabled_"	"120"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
 				"yres"		"600 767"
@@ -2215,8 +2221,8 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"10"
-				"tall_disabled"	"12"
-				"tall_disabled"	"14"
+				"tall$_disabled_"	"12"
+				"tall$_disabled_"	"14"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -2359,7 +2365,7 @@ Scheme
 			{
 				"name"			"Lato Semibold"
 				"tall"			"8"
-				"tall_disabled"	"12"
+				"tall$_disabled_"	"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"300"
 				"antialias"		"1"
@@ -2372,10 +2378,10 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"14"
-				"tall_disabled"	"18"
+				"tall$_disabled_"	"18"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"300"
-				"weight_disabled"	"600"
+				"weight$_disabled_"	"600"
 				"antialias"		"1"
 			}
 		}
@@ -2410,8 +2416,8 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"8"
-				"tall_disabled"	"10"
-				"tall_disabled"	"12"
+				"tall$_disabled_"	"10"
+				"tall$_disabled_"	"12"
 				"weight"	"0"
 				"additive"	"1"
 				"antialias" 	"1"
@@ -2423,8 +2429,8 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"9"
-				"tall_disabled"	"10"
-				"tall_disabled"	"16"
+				"tall$_disabled_"	"10"
+				"tall$_disabled_"	"16"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2436,8 +2442,8 @@ Scheme
 			"1"
 			{
 				"name"		"Lato Semibold"
-				"tall"		"11"  [!$OSX]
-				"tall"		"9"  [disabled]
+				"tall"		"11"  [!$_disabled_]
+				"tall"		"9"  [$_disabled_]
 				"weight"	"800"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2450,7 +2456,7 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"36"
-				"tall_disabled"		"28"
+				"tall$_disabled_"		"28"
 				"weight"	"500"
 			}
 		}
@@ -2460,7 +2466,7 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"30"
-				"tall_disabled"		"22"
+				"tall$_disabled_"		"22"
 				"weight"	"500"
 			}
 		}
@@ -2470,7 +2476,7 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"28"
-				"tall_disabled"	"24"
+				"tall$_disabled_"	"24"
 				"weight"	"500"
 			}
 		}
@@ -2516,7 +2522,7 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"22"
-				"tall_disabled"		"18"
+				"tall$_disabled_"		"18"
 				"weight"	"900"
 			}
 		}
@@ -2526,7 +2532,7 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"18"
-				"tall_disabled"		"18"
+				"tall$_disabled_"		"18"
 				"weight"	"900"
 			}
 		}
@@ -2829,6 +2835,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"Lato Semibold" [$WINDOWS]
 				"name"		"Lato Semibold"
 				"tall"		"10"
 				"weight"	"400"
@@ -2838,6 +2845,7 @@ Scheme
 			}
 			"2"
 			{
+				"name"		"Lato Semibold" [$WINDOWS]
 				"name"		"Lato Semibold"
 				"tall"		"14"
 				"weight"	"400"
@@ -2847,6 +2855,7 @@ Scheme
 			}
 			"3"
 			{
+				"name"		"Lato Semibold" [$WINDOWS]
 				"name"		"Lato Semibold"
 				"tall"		"18"
 				"weight"	"400"
@@ -2860,6 +2869,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"Lato Semibold" [$WINDOWS]
 				"name"		"Lato Semibold"
 				"tall"		"10"
 				"weight"	"800"
@@ -2869,6 +2879,7 @@ Scheme
 			}
 			"2"
 			{
+				"name"		"Lato Semibold" [$WINDOWS]
 				"name"		"Lato Semibold"
 				"tall"		"14"
 				"weight"	"800"
@@ -2878,6 +2889,7 @@ Scheme
 			}
 			"3"
 			{
+				"name"		"Lato Semibold" [$WINDOWS]
 				"name"		"Lato Semibold"
 				"tall"		"18"
 				"weight"	"800"
@@ -2891,6 +2903,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"Lato Semibold" [$WINDOWS]
 				"name"		"Lato Semibold"
 				"tall"		"16"
 				"weight"	"400"
@@ -2906,7 +2919,7 @@ Scheme
 				"name"		"Lato Semibold"
 				"tall"		"20"
 				"antialias" "1"
-				"custom"		"1" [disabled]
+				"custom"		"1" [$_disabled_]
 				"weight"	"500"
 			}
 		}
@@ -3231,8 +3244,8 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"18"
-				"tall_disabled"	"24"
-				"tall_disabled"	"18"
+				"tall$_disabled_"	"24"
+				"tall$_disabled_"	"18"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -3255,8 +3268,8 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"18"
-				"tall_disabled"	"24"
-				"tall_disabled"	"20"
+				"tall$_disabled_"	"24"
+				"tall$_disabled_"	"20"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -3355,6 +3368,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"Lato Semibold" [$WINDOWS]
 				"name"		"Lato Semibold"
 				"tall"		"7"
 				"weight"	"0"
@@ -3368,6 +3382,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"Lato Semibold" [$WINDOWS]
 				"name"		"Lato Semibold"
 				"tall"		"7"
 				"weight"	"400"
@@ -3380,6 +3395,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"Lato Semibold" [$WINDOWS]
 				"name"		"Lato Semibold"
 				"tall"		"10"
 				"weight"	"400"
@@ -3392,6 +3408,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"Lato Semibold" [$WINDOWS]
 				"name"		"Lato Semibold"
 				"tall"		"14"
 				"weight"	"400"
@@ -3404,6 +3421,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"Lato Semibold" [$WINDOWS]
 				"name"		"Lato Semibold"
 				"tall"		"30"
 				"weight"	"400"

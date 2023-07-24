@@ -15,6 +15,10 @@
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Backpack Icons (viewmode_ files) - Can't be preloaded (doesn't seem to work)
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
     // CTF - Base
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -24,7 +28,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\hud\objectives_flagpanel_compass_blue"
+        "image"                                                     "../hud/objectives_flagpanel_compass_blue"
     }
 
     "objectives_flagpanel_compass_blue_noarrow"
@@ -33,7 +37,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\hud\objectives_flagpanel_compass_blue_noarrow"
+        "image"                                                     "../hud/objectives_flagpanel_compass_blue_noarrow"
     }
 
     "objectives_flagpanel_compass_grey"
@@ -42,7 +46,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\hud\objectives_flagpanel_compass_grey"
+        "image"                                                     "../hud/objectives_flagpanel_compass_grey"
     }
 
     "objectives_flagpanel_compass_red"
@@ -51,7 +55,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\hud\objectives_flagpanel_compass_red"
+        "image"                                                     "../hud/objectives_flagpanel_compass_red"
     }
 
     "objectives_flagpanel_compass_red_noarrow"
@@ -60,7 +64,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\hud\objectives_flagpanel_compass_red_noarrow"
+        "image"                                                     "../hud/objectives_flagpanel_compass_red_noarrow"
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -73,7 +77,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\hud\cart_blue"
+        "image"                                                     "../hud/cart_blue"
     }
 
     "cart_blue_bottom"
@@ -82,7 +86,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\hud\cart_blue_bottom"
+        "image"                                                     "../hud/cart_blue_bottom"
     }
 
     "cart_red"
@@ -91,7 +95,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\hud\cart_red"
+        "image"                                                     "../hud/cart_red"
     }
 
     "cart_red_bottom"
@@ -100,7 +104,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\hud\cart_red_bottom"
+        "image"                                                     "../hud/cart_red_bottom"
     }
 
     "cart_neutral"
@@ -109,7 +113,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\hud\cart_neutral"
+        "image"                                                     "../hud/cart_neutral"
     }
 
     "cart_neutral_bottom"
@@ -118,7 +122,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\hud\cart_neutral_bottom"
+        "image"                                                     "../hud/cart_neutral_bottom"
     }
 
     "cart_point_neutral_opaque"
@@ -127,7 +131,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\hud\cart_point_neutral_opaque"
+        "image"                                                     "../hud/cart_point_neutral_opaque"
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -140,7 +144,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\hud\cart_home_red"
+        "image"                                                     "../hud/cart_home_red"
     }
 
     "cart_home_blue"
@@ -149,7 +153,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\hud\cart_home_blue"
+        "image"                                                     "../hud/cart_home_blue"
     }
 
     "cart_home_red_square"
@@ -158,7 +162,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\hud\cart_home_red_square"
+        "image"                                                     "../hud/cart_home_red_square"
     }
 
     "cart_home_blue_square"
@@ -167,7 +171,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\hud\cart_home_blue_square"
+        "image"                                                     "../hud/cart_home_blue_square"
     }
 
     "cart_point_blue"
@@ -176,7 +180,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\hud\cart_point_blue"
+        "image"                                                     "../hud/cart_point_blue"
     }
 
     "cart_point_red"
@@ -185,7 +189,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\hud\cart_point_red"
+        "image"                                                     "../hud/cart_point_red"
     }
 
     "cart_track_blue_opaque"
@@ -194,7 +198,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\hud\cart_track_blue_opaque"
+        "image"                                                     "../hud/cart_track_blue_opaque"
     }
 
     "cart_track_neutral_opaque"
@@ -203,7 +207,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\hud\cart_track_neutral_opaque"
+        "image"                                                     "../hud/cart_track_neutral_opaque"
     }
 
     "cart_track_red_opaque"
@@ -212,7 +216,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\hud\cart_track_red_opaque"
+        "image"                                                     "../hud/cart_track_red_opaque"
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -225,7 +229,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\hud\cart_home_blue_opaque"
+        "image"                                                     "../hud/cart_home_blue_opaque"
     }
 
     "cart_point_blue_opaque"
@@ -234,7 +238,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\hud\cart_point_blue_opaque"
+        "image"                                                     "../hud/cart_point_blue_opaque"
     }
 
     "cart_point_red_opaque"
@@ -243,7 +247,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\hud\cart_point_red_opaque"
+        "image"                                                     "../hud/cart_point_red_opaque"
     }
 
     "cart_track"
@@ -252,7 +256,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\hud\cart_track"
+        "image"                                                     "../hud/cart_track"
     }
 
     "cart_track_extender"
@@ -261,7 +265,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\hud\cart_track_extender"
+        "image"                                                     "../hud/cart_track_extender"
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -274,7 +278,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\sprites\obj_icons\icon_obj_neutral"
+        "image"                                                     "../sprites/obj_icons/icon_obj_neutral"
     }
 
     "icon_obj_neutral_locked"
@@ -283,7 +287,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\sprites\obj_icons\icon_obj_neutral_locked"
+        "image"                                                     "../sprites/obj_icons/icon_obj_neutral_locked"
     }
 
     "icon_obj_cap_blu"
@@ -292,7 +296,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\sprites\obj_icons\icon_obj_cap_blu"
+        "image"                                                     "../sprites/obj_icons/icon_obj_cap_blu"
     }
 
     "icon_obj_blu"
@@ -301,7 +305,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\sprites\obj_icons\icon_obj_blu"
+        "image"                                                     "../sprites/obj_icons/icon_obj_blu"
     }
 
     "icon_obj_blu_locked"
@@ -310,7 +314,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\sprites\obj_icons\icon_obj_blu_locked"
+        "image"                                                     "../sprites/obj_icons/icon_obj_blu_locked"
     }
 
     "icon_obj_cap_red"
@@ -319,7 +323,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\sprites\obj_icons\icon_obj_cap_red"
+        "image"                                                     "../sprites/obj_icons/icon_obj_cap_red"
     }
 
     "icon_obj_red"
@@ -328,7 +332,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\sprites\obj_icons\icon_obj_red"
+        "image"                                                     "../sprites/obj_icons/icon_obj_red"
     }
 
     "icon_obj_red_locked"
@@ -337,7 +341,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\sprites\obj_icons\icon_obj_red_locked"
+        "image"                                                     "../sprites/obj_icons/icon_obj_red_locked"
     }
 
     "icon_obj_cap_mask"
@@ -346,7 +350,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\sprites\obj_icons\icon_obj_cap_mask"
+        "image"                                                     "../sprites/obj_icons/icon_obj_cap_mask"
     }
 
     "icon_obj_cap_blu"
@@ -355,7 +359,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\sprites\obj_icons\icon_obj_cap_blu"
+        "image"                                                     "../sprites/obj_icons/icon_obj_cap_blu"
     }
 
     "icon_obj_cap_blu_up"
@@ -364,7 +368,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\sprites\obj_icons\icon_obj_cap_blu_up"
+        "image"                                                     "../sprites/obj_icons/icon_obj_cap_blu_up"
     }
 
     "icon_obj_cap_red"
@@ -373,7 +377,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\sprites\obj_icons\icon_obj_cap_red"
+        "image"                                                     "../sprites/obj_icons/icon_obj_cap_red"
     }
 
     "icon_obj_cap_red_up"
@@ -382,7 +386,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\sprites\obj_icons\icon_obj_cap_red_up"
+        "image"                                                     "../sprites/obj_icons/icon_obj_cap_red_up"
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -395,7 +399,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\sprites\obj_icons\icon_obj_1_blu"
+        "image"                                                     "../sprites/obj_icons/icon_obj_1_blu"
     }
 
     "icon_obj_1_blu_locked"
@@ -404,7 +408,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\sprites\obj_icons\icon_obj_1_blu_locked"
+        "image"                                                     "../sprites/obj_icons/icon_obj_1_blu_locked"
     }
 
     "icon_obj_1_red"
@@ -413,7 +417,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\sprites\obj_icons\icon_obj_1_red"
+        "image"                                                     "../sprites/obj_icons/icon_obj_1_red"
     }
 
     "icon_obj_1_red_locked"
@@ -422,7 +426,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\sprites\obj_icons\icon_obj_1_red_locked"
+        "image"                                                     "../sprites/obj_icons/icon_obj_1_red_locked"
     }
 
     "icon_obj_2_blu"
@@ -431,7 +435,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\sprites\obj_icons\icon_obj_2_blu"
+        "image"                                                     "../sprites/obj_icons/icon_obj_2_blu"
     }
 
     "icon_obj_2_blu_locked"
@@ -440,7 +444,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\sprites\obj_icons\icon_obj_2_blu_locked"
+        "image"                                                     "../sprites/obj_icons/icon_obj_2_blu_locked"
     }
 
     "icon_obj_2_red"
@@ -449,7 +453,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\sprites\obj_icons\icon_obj_2_red"
+        "image"                                                     "../sprites/obj_icons/icon_obj_2_red"
     }
 
     "icon_obj_2_red_locked"
@@ -458,7 +462,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\sprites\obj_icons\icon_obj_2_red_locked"
+        "image"                                                     "../sprites/obj_icons/icon_obj_2_red_locked"
     }
 
     "icon_obj_3_blu"
@@ -467,7 +471,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\sprites\obj_icons\icon_obj_3_blu"
+        "image"                                                     "../sprites/obj_icons/icon_obj_3_blu"
     }
 
     "icon_obj_3_blu_locked"
@@ -476,7 +480,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\sprites\obj_icons\icon_obj_3_blu_locked"
+        "image"                                                     "../sprites/obj_icons/icon_obj_3_blu_locked"
     }
 
     "icon_obj_3_red"
@@ -485,7 +489,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\sprites\obj_icons\icon_obj_3_red"
+        "image"                                                     "../sprites/obj_icons/icon_obj_3_red"
     }
 
     "icon_obj_3_red_locked"
@@ -494,7 +498,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\sprites\obj_icons\icon_obj_3_red_locked"
+        "image"                                                     "../sprites/obj_icons/icon_obj_3_red_locked"
     }
 
     "icon_obj_4_blu"
@@ -503,7 +507,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\sprites\obj_icons\icon_obj_4_blu"
+        "image"                                                     "../sprites/obj_icons/icon_obj_4_blu"
     }
 
     "icon_obj_4_blu_locked"
@@ -512,7 +516,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\sprites\obj_icons\icon_obj_4_blu_locked"
+        "image"                                                     "../sprites/obj_icons/icon_obj_4_blu_locked"
     }
 
     "icon_obj_4_red"
@@ -521,7 +525,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\sprites\obj_icons\icon_obj_4_red"
+        "image"                                                     "../sprites/obj_icons/icon_obj_4_red"
     }
 
     "icon_obj_4_red_locked"
@@ -530,7 +534,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\sprites\obj_icons\icon_obj_4_red_locked"
+        "image"                                                     "../sprites/obj_icons/icon_obj_4_red_locked"
     }
 
     "icon_obj_5_blu"
@@ -539,7 +543,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\sprites\obj_icons\icon_obj_5_blu"
+        "image"                                                     "../sprites/obj_icons/icon_obj_5_blu"
     }
 
     "icon_obj_5_blu_locked"
@@ -548,7 +552,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\sprites\obj_icons\icon_obj_5_blu_locked"
+        "image"                                                     "../sprites/obj_icons/icon_obj_5_blu_locked"
     }
 
     "icon_obj_5_red"
@@ -557,7 +561,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\sprites\obj_icons\icon_obj_5_red"
+        "image"                                                     "../sprites/obj_icons/icon_obj_5_red"
     }
 
     "icon_obj_5_red_locked"
@@ -566,6 +570,6 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "..\sprites\obj_icons\icon_obj_5_red_locked"
+        "image"                                                     "../sprites/obj_icons/icon_obj_5_red_locked"
     }
 }

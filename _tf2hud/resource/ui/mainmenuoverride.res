@@ -13,8 +13,8 @@
 		
 //		"bgcolor_override"	"0 0 0 240"
 		
-		"update_url"	"http://store.steampowered.com/news/?filter=updates&appids=440"
-		"blog_url"		"http://www.teamfortress.com/"
+		"update_url"	"https://store.steampowered.com/news/?filter=updates&appids=440"
+		"blog_url"		"https://www.teamfortress.com/"
 		
 		"button_x_offset"	"-285"
 		"button_y"			"120"
@@ -176,47 +176,47 @@
 		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
 
-		_disabled_wider
+		$_disabled_wider
 		{
 			"wide"			"f0"
 			"tall"			"o0.628"
 		}
 
-		_disabled_taller
+		$_disabled_taller
 		{
 			"wide"			"o1.6"
 			"tall"			"f0"
 		}
 		
-		_disabled_halloween_0
+		$_disabled_halloween_0
 		{
 			"image"		"../console/title_team_halloween2011_widescreen"
 		}
-		_disabled_halloween_1
+		$_disabled_halloween_1
 		{
 			"image"		"../console/title_team_halloween2012_widescreen"
 		}
-		_disabled_halloween_2
+		$_disabled_halloween_2
 		{
 			"image"		"../console/title_team_halloween2013_widescreen"
 		}
-		_disabled_halloween_3
+		$_disabled_halloween_3
 		{
 			"image"		"../console/title_team_halloween2014_widescreen"
 		}
-		_disabled_halloween_4
+		$_disabled_halloween_4
 		{	
 			"image"		"../console/title_team_halloween2015_widescreen"
 		}
-		_disabled_halloween_5
+		$_disabled_halloween_5
 		{	
 			"image"		"../console/title_scream_fortress_2017_widescreen"
 		}
-		_disabled_fullmoon
+		$_disabled_fullmoon
 		{
 			"image"		"../console/title_fullmoon_widescreen"
 		}
-		_disabled_christmas
+		$_disabled_christmas
 		{
 			"image"		"../console/background_xmas2020_widescreen"
 		}		
@@ -1707,13 +1707,193 @@
 				{
 					"0"
 					{
-						"item"		"Summer 2021 Cosmetic Key" 
+						"item"		"Summer 2023 Cosmetic Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Summer 2021 Cosmetic Case"
+						"item"		"Summer 2023 Cosmetic Case"
 						"show_market"	"1"
+					}
+					"2"
+					{
+						"item"		"Summer 2023 War Paint Key"
+						"show_market"	"0"
+					}
+					"3"
+					{
+						"item"		"Summer 2023 War Paint Case"
+						"show_market"	"1"
+					}
+					"4"
+					{
+						"item"		"Taunt: Star-Spangled Strategy"
+						"show_market"	"0"
+					}
+					"5"
+					{
+						"item"		"Taunt: Killer Joke"
+						"show_market"	"0"
+					}
+					"6"
+					{
+						"item"		"Taunt: The Head Doctor"
+						"show_market"	"0"
+					}
+					"7"
+					{
+						"item"		"Taunt: Tuefort Tango"
+						"show_market"	"0"
+					}
+					"8"
+					{
+						"item"		"Taunt: The Road Rager"
+						"show_market"	"0"
+					}
+					"9"
+					{
+						"item"		"Taunt: The Killer Signature"
+						"show_market"	"0"
+					}
+					"10"
+					{
+						"item"		"Map Token Sharkbay"
+						"show_market"	"0"
+					}
+					"11"
+					{
+						"item"		"Map Token Rotunda"
+						"show_market"	"0"
+					}
+					"12"
+					{
+						"item"		"Map Token Phoenix"
+						"show_market"	"0"
+					}
+					"13"
+					{
+						"item"		"Map Token Cashworks"
+						"show_market"	"0"
+					}
+					"14"
+					{
+						"item"		"Map Token Venice"
+						"show_market"	"0"
+					}
+					"15"
+					{
+						"item"		"Map Token Reckoner"
+						"show_market"	"0"
+					}
+					"16"
+					{
+						"item"		"Map Token Sulfur"
+						"show_market"	"0"
+					}
+					"17"
+					{
+						"item"		"Map Token Hardwood"
+						"show_market"	"0"
+					}
+					"18"
+					{
+						"item"		"Map Token Pelican Peak"
+						"show_market"	"0"
+					}
+					"19"
+					{
+						"item"		"Map Token Selbyen"
+						"show_market"	"0"
+					}
+					"20"
+					{
+						"item"		"Map Token VSH Tiny Rock"
+						"show_market"	"0"
+					}
+					"21"
+					{
+						"item"		"Map Token VSH Distillery"
+						"show_market"	"0"
+					}
+					"22"
+					{
+						"item"		"Map Token VSH Skirmish"
+						"show_market"	"0"
+					}
+					"23"
+					{
+						"item"		"Map Token VSH Nucleus"
+						"show_market"	"0"
+					}
+					"24"
+					{
+						"item"		"Strange Filter: Sharkbay (Community)"
+						"show_market"	"0"
+					}
+					"25"
+					{
+						"item"		"Strange Filter: Rotunda (Community)"
+						"show_market"	"0"
+					}
+					"26"
+					{
+						"item"		"Strange Filter: Phoenix (Community)"
+						"show_market"	"0"
+					}
+					"27"
+					{
+						"item"		"Strange Filter: Cashworks (Community)"
+						"show_market"	"0"
+					}
+					"28"
+					{
+						"item"		"Strange Filter: Venice (Community)"
+						"show_market"	"0"
+					}
+					"29"
+					{
+						"item"		"Strange Filter: Reckoner (Community)"
+						"show_market"	"0"
+					}
+					"30"
+					{
+						"item"		"Strange Filter: Sulfur (Community)"
+						"show_market"	"0"
+					}
+					"31"
+					{
+						"item"		"Strange Filter: Hardwood (Community)"
+						"show_market"	"0"
+					}
+					"32"
+					{
+						"item"		"Strange Filter: Pelican Peak (Community)"
+						"show_market"	"0"
+					}
+					"33"
+					{
+						"item"		"Strange Filter: Selbyen (Community)"
+						"show_market"	"0"
+					}
+					"34"
+					{
+						"item"		"Strange Filter: VSH Tiny Rock (Community)"
+						"show_market"	"0"
+					}
+					"35"
+					{
+						"item"		"Strange Filter: VSH Distillery (Community)"
+						"show_market"	"0"
+					}
+					"36"
+					{
+						"item"		"Strange Filter: VSH Skirmish (Community)"
+						"show_market"	"0"
+					}
+					"37"
+					{
+						"item"		"Strange Filter: VSH Nucleus (Community)"
+						"show_market"	"0"
 					}
 				}
 			}
